@@ -32,39 +32,39 @@ def menu_aumento():
     if salario <= 1000:
         aumento = (20 / 100) * salario
         novo_salario = aumento + salario
-        print("------------------------------------------------------------------------")
+        print("------------------------------------")
         print(f"FUNCIONÁRIO   |  {nome}")
-        print(f"NOVO SALÁRIO  |  R${novo_salario}")
-        print(f"AUMENTO       |  R${aumento}")
+        print(f"NOVO SALÁRIO  |  R${novo_salario:.2f}")
+        print(f"AUMENTO       |  R${aumento:.2f}")
         print(f"PORCENTAGEM   |  20%")
-        print("------------------------------------------------------------------------")
+        print("------------------------------------")
     elif salario <= 3000:
         aumento = (15 / 100) * salario
         novo_salario = aumento + salario
-        print("------------------------------------------------------------------------")
+        print("------------------------------------")
         print(f"FUNCIONÁRIO   |  {nome}")
-        print(f"NOVO SALÁRIO  |  R${novo_salario}")
-        print(f"AUMENTO       |  R${aumento}")
+        print(f"NOVO SALÁRIO  |  R${novo_salario:.2f}")
+        print(f"AUMENTO       |  R${aumento:.2f}")
         print(f"PORCENTAGEM   |  15%")
-        print("------------------------------------------------------------------------")
+        print("------------------------------------")
     elif salario <= 8000:
         aumento = (10 / 100) * salario
         novo_salario = aumento + salario
-        print("------------------------------------------------------------------------")
+        print("------------------------------------")
         print(f"FUNCIONÁRIO   |  {nome}")
-        print(f"NOVO SALÁRIO  |  R${novo_salario}")
-        print(f"AUMENTO       |  R${aumento}")
+        print(f"NOVO SALÁRIO  |  R${novo_salario:.2f}")
+        print(f"AUMENTO       |  R${aumento:.2f}")
         print(f"PORCENTAGEM   |  10%")
-        print("------------------------------------------------------------------------")
+        print("------------------------------------")
     elif salario > 8000:
         aumento = (5 / 100) * salario
         novo_salario = aumento + salario
-        print("------------------------------------------------------------------------")
+        print("------------------------------------")
         print(f"FUNCIONÁRIO   |  {nome}")
-        print(f"NOVO SALÁRIO  |  R${novo_salario}")
-        print(f"AUMENTO       |  R${aumento}")
+        print(f"NOVO SALÁRIO  |  R${novo_salario:.2f}")
+        print(f"AUMENTO       |  R${aumento:.2f}")
         print(f"PORCENTAGEM   |  5%")
-        print("------------------------------------------------------------------------")
+        print("------------------------------------")
 
 menu_aumento()
 retornar()
